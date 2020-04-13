@@ -22,6 +22,7 @@ class RedisLettuceApplicationTests {
         System.out.println(name);
     }
 
+
     @Test
     void t2() {
         User user = userservice.getById("2");
